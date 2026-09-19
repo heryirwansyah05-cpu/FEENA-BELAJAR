@@ -1,0 +1,1 @@
+Tempat icon APK/favicon.
