@@ -129,7 +129,7 @@ function answer(btn,text,correct,l){
     state.best=Math.max(state.best,3);save();
     $("nextBtn").classList.remove("hidden");
     playAudio(AUDIO.correct,"correct","Hebat! Jawaban kamu benar!");
-    setTimeout(()=>playAudio(AUDIO.star,"star","Tiga bintang untuk kamu!"),650);
+    setTimeout(()=>playAudio(AUDIO.star,"star","Feena, kamu hebat... teruskan yooookk!"),750);
   }else{
     f.textContent="😊 Belum tepat. Yuk coba lagi.";
     $("speechBubble").textContent="Tidak apa-apa. Coba sekali lagi ya! 💪";
